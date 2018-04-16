@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void){
- int t,xx;
+ int t,r,k,x,xx;
  FILE *fp;
  fp=fopen("output.dat","a");
  fprintf(fp, "%d, %d", 0, x0);
