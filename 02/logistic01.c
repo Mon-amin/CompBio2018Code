@@ -16,6 +16,5 @@ for(r=1.0; r<3.0; r=r+0.1){
 }
 fclose(fp);
 
-printf("show the output!\n", );
 return 0;
 }
