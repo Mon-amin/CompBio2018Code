@@ -16,7 +16,6 @@ int main(void) {
    if ((!i==1||i==2)) {
      printf("iは1または2ではない\n");
    }
-   printf("\n");
  }
 
   return 0;
