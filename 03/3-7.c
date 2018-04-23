@@ -2,7 +2,7 @@
 #include<math.h>
 
 int main(void){
-  int i;
+  int i,k;
   double x0,xx,x,r,xa;
   double dt;
   x0=10.0;
@@ -14,7 +14,7 @@ int main(void){
 
   FILE*fp;
   fp=fopen("3-7.dat","w");
-  fprintf(fp,"%f, %f, %f\n", 0.0, xa, x,);
+  fprintf(fp,"%f, %f, %f\n", 0.0, xa, x);
 
   for(i=1;i<1000;i++){
   xa=k/(1+(k/x0-1)*exp(-r*dt*i));
@@ -22,7 +22,7 @@ int main(void){
   xx=x+dt*r*(1-x/k)*x;
   x=xx;
 
-  fprintf(fp, "%f, %f, %f\n", dt*i, xa, x,);
+  fprintf(fp, "%f, %f, %f\n", dt*i, xa, x);
   }
   fclose(fp);
   return 0;
