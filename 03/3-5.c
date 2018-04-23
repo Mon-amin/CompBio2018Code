@@ -15,7 +15,7 @@ int main(void){
     for(t=0; t<1000; t++){
       xx=x+r*(1-x/k)*x;
       x=xx;
-      if(t>900){
+      if(t>=900){
         fprintf(fp, "%f, %f\n", r, x);
       }
     }
