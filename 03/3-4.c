@@ -9,6 +9,9 @@ int main(void){
     else if(i%3==1){
       printf("余り1\n");
     }
+    else if(i%3==2){
+      printf("\n");
+    }
   }
   return 0;
 }
