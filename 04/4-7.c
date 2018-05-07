@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(void){
-  int i,j,k;
+  int i;
   double t,dt;
   double x[2];
   double xx[2];
@@ -25,8 +25,8 @@ int main(void){
 
   for(i=1; i<=100000; i++){
     t=dt*i;
-    xx[0]=x[0]+dt*(a-b*x[0]-cx[1])*x[0];
-    xx[1]=x[1]+dt*(d-e*x[0]-fx[1])*x[1];
+    xx[0]=x[0]+dt*(a-b*x[0]-c*x[1])*x[0];
+    xx[1]=x[1]+dt*(d-e*x[0]-f*x[1])*x[1];
     x[0]=xx[0];
     x[1]=xx[1];
 
