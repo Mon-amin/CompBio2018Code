@@ -14,7 +14,7 @@ int main(void){
     r=rand()%(N-M+1)+M;
     x=x+r;
     if(x>=100){
-     printf("%d\n", i);
+     printf("%d\n,%d\n",k,i);
      break;
     }
 
