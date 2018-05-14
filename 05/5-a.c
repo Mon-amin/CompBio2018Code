@@ -4,7 +4,7 @@
 
 int main(void){
   int r,i,M,N,x,k;
-  srand(time(NULL)+k);
+  srand(k);
   M=1;
   N=6;
   x=0;
