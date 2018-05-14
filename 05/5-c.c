@@ -26,7 +26,6 @@ int main(void){
     }
     fprintf(fp,"\n");
     }
-  }
   fclose(fp);
   return 0;
 }
