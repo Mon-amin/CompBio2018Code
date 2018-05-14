@@ -4,7 +4,7 @@
 
 int main(void){
   int r,i,M,N,x,k;
-  srand(time(NULL));
+  srand(time(NULL)+k);
   M=1;
   N=6;
   x=0;
@@ -14,7 +14,7 @@ int main(void){
     r=rand()%(N-M+1)+M;
     x=x+r;
     if(x>=100){
-     printf("%d\n,%d\n",k,i);
+     printf("%d ,%d\n",k,i);
      break;
     }
 
