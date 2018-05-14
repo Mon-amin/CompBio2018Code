@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int int main(void){
+int main(void){
   int r,i;
   srand(1);
 
