@@ -14,7 +14,7 @@ int main(void){
     x=x+r;
     if(x>=100){
      printf("%d\n", i);
-     braek;
+     break;
     }
 
   }
