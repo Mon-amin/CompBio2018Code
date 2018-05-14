@@ -12,7 +12,7 @@ int main(void){
     a[i+N/2]=1;
   }
 
-  for(i-0;i<N;i++){
+  for(i=0;i<N;i++){
     printf("%d", a[i]);
   }
   printf("\n");
@@ -21,9 +21,9 @@ int main(void){
     for(i=0;i<N;i++){
       r1=rand()%N;
       r2=rand()%N;
-      r=rand()%N;
+      r=rand()%2;
       if(r==0){
-        aa[i]=a[r2];
+        aa[i]=a[r1];
       }
       if(r==1){
         aa[i]=a[r2];
