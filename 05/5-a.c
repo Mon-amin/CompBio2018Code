@@ -4,7 +4,7 @@
 
 int main(void){
   int r,i,M,N,x,k,t;
-  int n=100; //試行回数
+  int n=10; //試行回数
   double ave;
   srand(time(NULL));
   M=1;
