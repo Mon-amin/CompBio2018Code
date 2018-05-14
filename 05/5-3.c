@@ -8,7 +8,7 @@ int main(void){
   M=1;
   N=6;
 
-  for(i=0;i<100,i++){
+  for(i=0;i<100;i++){
     r=rand()%(N-M+1)+M;
     printf("%d\n", r);
   }

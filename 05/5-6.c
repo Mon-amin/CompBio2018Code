@@ -7,7 +7,7 @@ int main(void){
   srand(time(NULL));
   x=0;
 
-  for(i=0;i<100,i++){
+  for(i=0;i<100;i++){
     r=rand()%2;
     if(r==0){
       x=x+1;

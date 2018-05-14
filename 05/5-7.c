@@ -7,7 +7,7 @@ int main(void){
   int r,r1,r2,t,i,a[N],aa[N];
   srand(time(NULL));
 
-  for(i=0;i<(N/2),i++){
+  for(i=0;i<(N/2);i++){
     a[i]=0;
     a[i+N/2]=1;
   }

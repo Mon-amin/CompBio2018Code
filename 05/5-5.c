@@ -9,7 +9,7 @@ int main(void){
   N=6;
   x=0;
 
-  for(i=0;i<100,i++){
+  for(i=0;i<100;i++){
     r=rand()%(N-M+1)+M;
     x=x+r;
     if(x>=100){
