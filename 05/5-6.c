@@ -16,7 +16,7 @@ int main(void){
       x=x-1;
     }
 
-    printf("%d\n", i);
+    printf("%d\n", x);
   }
   return 0;
 }
