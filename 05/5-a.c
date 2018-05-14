@@ -4,9 +4,9 @@
 
 int main(void){
   int r,i,M,N,x,k,t;
-  int n=1000 //回数
+  int n=1000; //回数
   double ave;
-  srand(tome(NULL));
+  srand(time(NULL));
   M=1;
   N=6;
   x=0;
@@ -29,6 +29,6 @@ printf("n=%d\n", n);
  printf("\n");
  ave=(double)t/n;
  printf("%f\n", ave);
- 
+
  return 0;
 }
