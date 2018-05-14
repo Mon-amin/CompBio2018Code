@@ -5,9 +5,9 @@ int int main(void){
   int r,i;
   srand(1);
 
-  for(i=0;i<100,i++){
+  for(i=0;i<100;i++){
     r=rand();
-    printf("%d\n", r);
+    printf("%d\n",r);
   }
   return 0;
 }
