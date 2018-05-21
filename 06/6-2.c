@@ -2,7 +2,7 @@
 
 int	main(void){
 
-		FILE	*fp;
+		FILE *fp;
 		int	ret;
 
 		int	i,j;
@@ -23,7 +23,7 @@ int	main(void){
     //データを何列読み込んだかカウント
 
 		fclose(fp);
-		
+
     //データを書きこむ
     fp=fopen("6-2.csv","w");
   for(j=0;j<i;j++){
