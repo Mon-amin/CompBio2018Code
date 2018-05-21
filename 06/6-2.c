@@ -12,7 +12,7 @@ int	main(void){
 
 		//データを読み込む                                
 			fp=fopen("6-1.csv","r");
-		fscanf(fp,"%[^_],	%s",	name1,name2);
+		fscanf(fp,"%[^,],	%s",	name1,name2);
 
 		i=0;
 		while((ret=fscanf(fp,"%d,	%lf",&notemp,&valuetemp))!=EOF){
