@@ -2,14 +2,14 @@
 
 int main(void){
 
-  double β,γ,S,SS,I,II,R,RR,t,dt;
+  double beta,gamma,S,SS,I,II,R,RR,t,dt;
   int i;
   FILE *fp;
 
   fp=fopen("6-4.dat","w");
 
-  β=1.5;
-  γ=0.2;
+  beta=1.5;
+  gamma=0.2;
   S=0.99;
   I=0.01;
   R=0.00;
@@ -17,9 +17,9 @@ int main(void){
   dt=0.01;
 
   for(i=0; i<100; i++){
-    SS=S+dt*(-β*S*I);
-    II=I+dt*(β*S*I-γ*I);
-    RR=R+dt*γ*I;
+    SS=S+dt*(-beta*S*I);
+    II=I+dt*(beta*S*I-gamma*I);
+    RR=R+dt*gamma*I;
     S=SS;
     I=II;
     R=RR;
