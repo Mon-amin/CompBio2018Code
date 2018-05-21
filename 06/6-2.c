@@ -11,8 +11,8 @@ int	main(void){
 		double	value[100],valuetemp;
 
 		//データを読み込む                                
-			fp=fopen("6-1.csv","r");
-		fscanf(fp,"%[^,],	%s",	name1,name2);
+		fp=fopen("6-1.csv","r");
+		fscanf(fp,"%[^,],	%s", name1,name2);
 
 		i=0;
 		while((ret=fscanf(fp,"%d,	%lf",&notemp,&valuetemp))!=EOF){
@@ -26,9 +26,9 @@ int	main(void){
 
     //データを書きこむ
     fp=fopen("6-2.csv","w");
-  for(j=0;j<i;j++){
+    for(j=0;j<i;j++){
       fprintf(fp,"%d,%f\n",no[j],value[j]);
-  }
+    }
   fclose(fp);
   return	0;
 }
