@@ -27,7 +27,7 @@ int main(void){
       fprintf(fp,"%f,%f,%f,%f\n",t,S,I,R);
     }
     t+=dt;
-    fclose(fp);
   }
+  fclose(fp);
   return 0;
 }
