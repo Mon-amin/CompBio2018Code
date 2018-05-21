@@ -9,12 +9,12 @@ int main(void){
   fp=fopen("6-4.dat","w");
 
   beta=1.5;
-  gamma=0.2;
+  gamma=0.4;
   S=0.99;
   I=0.01;
   R=0.00;
   t=0.00;
-  dt=0.01;
+  dt=0.001;
 
   for(i=0; i<100; i++){
     SS=S+dt*(-beta*S*I);
