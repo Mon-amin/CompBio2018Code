@@ -29,7 +29,7 @@ int	main(void){
   }
   //導出した式に従い，パラメータを推定する          
   a=(n*sumtx-sumt*sumx)/(n*sumtt-sumt*sumt);
-  b=(sumtt*sumx-sumt*sumtx)/(n*sumttsumt*sumt);
+  b=(sumtt*sumx-sumt*sumtx)/(n*sumtt-sumt*sumt);
   printf("a:	%f,	b:	%f\n",a,b);
   return	0;
 }
