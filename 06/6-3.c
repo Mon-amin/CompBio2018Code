@@ -11,8 +11,7 @@ int	main(void){
 		fp=fopen("6-3.csv","r");
 		fscanf(fp,"%[^,],%s",name,name);
 		i=0;
-		while((ret=fscanf(fp,"%lf,
-%lf",&t[i],&x[i]))!=EOF){
+		while((ret=fscanf(fp,"%lf,%lf",&t[i],&x[i]))!=EOF){
 				i++;
 		}
 		fclose(fp);
