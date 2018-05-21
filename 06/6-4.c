@@ -16,7 +16,7 @@ int main(void){
   t=0.00;
   dt=0.001;
 
-  for(i=0; i<100; i++){
+  for(i=0; i<1000; i++){
     SS=S+dt*(-beta*S*I);
     II=I+dt*(beta*S*I-gamma*I);
     RR=R+dt*gamma*I;
