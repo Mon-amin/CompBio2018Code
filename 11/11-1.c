@@ -9,7 +9,7 @@ int	main(){
 
 		FILE	*fp;
 
-		fp=fopen(“11-1.csv”,"w");
+		fp=fopen("11-1.csv","w");
 
     //初期化
 		for(i=0;i<100;i++){
