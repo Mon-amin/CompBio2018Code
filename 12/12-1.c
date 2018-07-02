@@ -48,7 +48,7 @@ int main(){
 
     for(i=0; i<12000; i++){
       t=dt*i;
-printf("%f/n", t);
+printf("%f\n", t);
     //花粉の摂取量Pに値を代入
       //花粉飛散期に入る前
       if(i<=T){
