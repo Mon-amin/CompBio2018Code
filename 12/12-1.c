@@ -7,7 +7,7 @@ int main(){
 
   //ファイルを開く
   FILE *fp;
-  fp=fopen("allergy_ode.csv","w");
+  fp=fopen("allergy_ode2.csv","w");
 
   //患者のおかれる条件にあたるパラメータ
   a=2.0;
